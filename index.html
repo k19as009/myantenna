@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Antenna</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hover.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/system.js"></script>
+	<script src="js/toggleMenu.js"></script>
+</head>
+
+
+<body>
+	
+	<div class="video-container">
+        <video muted playsinline autoplay loop id="background-video">
+            <!-- QuickTime動画 -->
+                <source src="movie/title.mov" type="video/quicktime" />
+                <!-- WebM動画 -->
+                <source src="movie/title.webm" type="video/webm" />
+                <!-- mp4動画 -->
+                <source src="movie/title.mp4" type="video/webm" />
+        </video>
+    </div>
+    
+	
+    <header>	
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <nav>
+            <ul id="menu">
+                <li><a href="movie.html">Movie</a></li>
+                <li><a href="character.html">Character</a></li>
+                <li><a href="portraits.html">Portraits</a></li>
+                <li><a href="other.html">Other</a></li>
+            </ul>
+        </nav>
+    </header>
+
+      <main>
+        <section id="about" class="about-section">
+            <div id="button">
+              Abuto
+            </div>
+            <p>
+                <br><br>
+                学術的な基礎知識と、みんなが持っているマイアンテナを紹介する、HSPの情報をお届けするコンテンツです。 <br><br>
+
+                「HSP（Highly Sensitive Person）」とは、環境感受性が強く敏感な気質をもった⼈のことを指します。<br>
+                「HSP」は感受性の高さから、光・⾳・⾹りなどの外的な刺激に敏感で、他人の気持ちに共感しやすい、些細なことで疲れやすい、
+                物事を深く考えるといった特徴が挙げられます。<br>
+                2020年ごろから、書籍やメディアがHSPを取り上げることでこの概念が広がり、日本では「繊細さん」や「敏感さん」という愛称で知られる
+                ようになっています。<br><br>
+
+                これにより、多くの人々がHSPについて関心を持つようになりましたが、その一方で、情報の氾濫により誤った理解や偏った認識が広がる事態
+                も発生していると感じるようになりました。<br>
+                HSPのネガティブな部分を取り上げた情報や、偏った発信、また科学的根拠の乏しい誤った情報が「HSP」として一般に広がり定着しています。<br>
+                
+                その結果「HSP」が、生きづらさを代表するひとつの「障害」として扱われるようになっていきました。<br><br>
+
+                ですが、「HSP」は本当に障害なのでしょうか？<br><br>
+
+                心理学の視点から見た学術的なHSPの知識を提供し、誤った情報によって生じたネガティブなイメージを転換することを目的としたコンテンツです。
+            </p>
+			
+				  <img src="movie/orcahn_walk.gif" alt="top GIF" width="200" class="top-gif">
+			
+        </section>
+    </main>   
+	
+		 
+
+
+<footer>
+<p>© My Antenna 2024</p>
+  </footer>
+</body>
+</html>
