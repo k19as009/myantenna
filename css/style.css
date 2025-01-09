@@ -43,7 +43,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-image: url('../img/txt.png'); 
+    /*background-image: url('../img/txt.png'); */
     background-repeat: repeat; 
     background-size: cover; 
     background-attachment: fixed;
